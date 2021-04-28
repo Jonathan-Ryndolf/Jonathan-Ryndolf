@@ -383,12 +383,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h1 {
+  paadding: 15px;
+  paadding-right: 50px;
+  paadding-left: 50px;
   margin: 0 0 10px 0;
   font-size: 48px;
-  font-weight: 700;
+  font-weight: 1000;
   line-height: 56px;
   text-transform: uppercase;
   color: #fff;
+  baackground-color: rgba(0, 0, 0, 0.5);
+  boorder: 1px solid #ffffff;
+}
+
+#hero h1 span {
+  font-weight: 100;
 }
 
 #hero h2 {
